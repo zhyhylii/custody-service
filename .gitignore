@@ -1,0 +1,18 @@
+# Rust build output
+debug/
+target/
+**/*.rs.bk
+*.pdb
+
+# Secrets and key material: never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# IDE
+.idea/
